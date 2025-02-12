@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(lightgreen, green);
+  padding: 10px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}

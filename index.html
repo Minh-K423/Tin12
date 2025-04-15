@@ -50,7 +50,7 @@
   <script src="script.js"></script>
 </body>
 
-</html>-->
+</html>
 
 <!DOCTYPE html>
 <html>
@@ -145,6 +145,75 @@
         </fieldset>
     </form>
   <script src="script.js"></script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding:0;
+        }
+
+        header {
+            height: 10vh;
+            width: 100%;
+            background-color: black;
+            display: inline-block;
+        }
+
+        .nav {
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        .nav .cat {
+            width: 20%;
+            height: 100%;
+            border-right: solid 1px rgb(255, 255, 255);
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .nav .cat a {
+            text-decoration: none;
+            color: white
+        }
+
+        .nav .cat:hover {
+            cursor: pointer;
+            border-bottom: white solid 10px;
+            padding-top: 28px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: 5px solid black;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="cat" id="#"><a href="index.html" target="frame">Gioi thieu</a></div>
+            <div class="cat" id="#"><a href="tkb.html" target="frame">Thoi khoa bieu</a></div>
+            <div class="cat" id="#"><a href="huongnghiep.html" target="frame">Huong nghiep</a></div>
+            <div class="cat" id="#"><a href="B7-nv2.html" target="frame">Gop y</a></div>
+            <div class="cat" id="#"><a href="login.html" target="frame">Dang nhap</a></div>
+        </div>
+    </header>
+    <iframe name="frame"></iframe>
 </body>
 </html>
 
